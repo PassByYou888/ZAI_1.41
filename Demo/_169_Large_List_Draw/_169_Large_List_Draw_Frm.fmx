@@ -1,0 +1,30 @@
+object _169_Large_List_Draw_Form: T_169_Large_List_Draw_Form
+  Left = 0
+  Top = 0
+  Caption = #22823#35268#27169#21015#34920#28210#26579
+  ClientHeight = 536
+  ClientWidth = 889
+  StyleBook = StyleDataModule.GlobalStyleBook
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnMouseWheel = FormMouseWheel
+  OnPaint = FormPaint
+  DesignerMasterStyle = 0
+  object sysTimer: TTimer
+    Interval = 10
+    OnTimer = sysTimerTimer
+    Left = 292
+    Top = 192
+  end
+  object ScrollBar_: TSmallScrollBar
+    Align = Right
+    SmallChange = 0.000000000000000000
+    Orientation = Vertical
+    Position.X = 876.000000000000000000
+    Size.Width = 13.000000000000000000
+    Size.Height = 536.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+end

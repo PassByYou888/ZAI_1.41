@@ -1,0 +1,67 @@
+object _143_YOLO_X_Training_Form: T_143_YOLO_X_Training_Form
+  Left = 0
+  Top = 0
+  BorderStyle = Single
+  Caption = 'YOLO_X '#27169#22411#35757#32451', create by.qq600585'
+  ClientHeight = 563
+  ClientWidth = 966
+  Position = ScreenCenter
+  StyleBook = StyleDataModule.GlobalStyleBook
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Memo: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    StyledSettings = [FontColor]
+    TextSettings.Font.Family = 'Consolas'
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    Position.X = 16.000000000000000000
+    Position.Y = 72.000000000000000000
+    Size.Width = 921.000000000000000000
+    Size.Height = 473.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Viewport.Width = 917.000000000000000000
+    Viewport.Height = 469.000000000000000000
+  end
+  object training_Button: TButton
+    Position.X = 16.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = #35757#32451
+    OnClick = training_ButtonClick
+  end
+  object Now_Finished_Button: TButton
+    Enabled = False
+    Position.X = 104.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = #31435#21363#23436#25104
+    OnClick = Now_Finished_ButtonClick
+  end
+  object fpsTimer: TTimer
+    Interval = 100
+    OnTimer = fpsTimerTimer
+    Left = 472
+    Top = 264
+  end
+  object Test_Button: TButton
+    Position.X = 192.000000000000000000
+    Position.Y = 24.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 30.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = #27979#35797
+    OnClick = Test_ButtonClick
+  end
+end

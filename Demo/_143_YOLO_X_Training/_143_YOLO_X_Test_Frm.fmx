@@ -1,0 +1,106 @@
+object _143_YOLO_X_Test_Form: T_143_YOLO_X_Test_Form
+  Left = 0
+  Top = 0
+  Caption = 'YOLO-X '#27979#35797#22120
+  ClientHeight = 545
+  ClientWidth = 928
+  Position = MainFormCenter
+  StyleBook = StyleDataModule.GlobalStyleBook
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnMouseDown = FormMouseDown
+  OnMouseMove = FormMouseMove
+  OnMouseUp = FormMouseUp
+  OnMouseWheel = FormMouseWheel
+  OnPaint = FormPaint
+  DesignerMasterStyle = 0
+  object fpsTimer: TTimer
+    Interval = 20
+    OnTimer = fpsTimerTimer
+    Left = 136
+    Top = 168
+  end
+  object Clear_Box_Button: TButton
+    Anchors = [akTop, akRight]
+    Position.X = 840.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = #28165#26694
+    OnClick = Clear_Box_ButtonClick
+  end
+  object Test_Button: TButton
+    Anchors = [akTop, akRight]
+    Position.X = 840.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = #27979#35797
+    OnClick = Test_ButtonClick
+  end
+  object Layout1: TLayout
+    Anchors = [akTop, akRight]
+    Position.X = 872.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    object Label1: TLabel
+      Align = Top
+      Size.Width = 49.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Trailing
+      TextSettings.WordWrap = False
+      Text = #23610#24230
+      TabOrder = 0
+    end
+    object image_resize_Edit: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 1
+      Text = '416'
+      TextSettings.HorzAlign = Trailing
+      Position.Y = 17.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+  object Layout2: TLayout
+    Anchors = [akTop, akRight]
+    Position.X = 815.000000000000000000
+    Position.Y = 88.000000000000000000
+    Size.Width = 49.000000000000000000
+    Size.Height = 49.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    object Label2: TLabel
+      Align = Top
+      Size.Width = 49.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.HorzAlign = Trailing
+      TextSettings.WordWrap = False
+      Text = #20505#36873#38408#20540
+      TabOrder = 0
+    end
+    object threshold_Edit: TEdit
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      Align = Top
+      TabOrder = 1
+      Text = '0.05'
+      TextSettings.HorzAlign = Trailing
+      Position.Y = 17.000000000000000000
+      Size.Width = 49.000000000000000000
+      Size.Height = 22.000000000000000000
+      Size.PlatformDefault = False
+    end
+  end
+end

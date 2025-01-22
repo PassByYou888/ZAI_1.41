@@ -1,0 +1,40 @@
+object _168_SSL_Face_Demo_Form: T_168_SSL_Face_Demo_Form
+  Left = 0
+  Top = 0
+  Caption = #26080#30417#30563#20154#33080#35782#21035#20307#31995
+  ClientHeight = 525
+  ClientWidth = 938
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnMouseDown = FormMouseDown
+  OnMouseMove = FormMouseMove
+  OnMouseUp = FormMouseUp
+  OnMouseWheel = FormMouseWheel
+  OnPaint = FormPaint
+  DesignerMasterStyle = 0
+  object sysTimer: TTimer
+    Interval = 10
+    OnTimer = sysTimerTimer
+    Left = 452
+    Top = 248
+  end
+  object open_test_face_Button: TButton
+    Enabled = False
+    Position.X = 20.000000000000000000
+    Position.Y = 12.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = #27979#35797#26080#30417#30563#20154#33080
+    OnClick = open_test_face_ButtonClick
+  end
+  object OpenDialog_: TOpenDialog
+    DefaultExt = '.jpg'
+    Filter = 'jpeg file(*.jpg;*.jpeg)|*.jpg;*.jpeg'
+    Options = [ofHideReadOnly, ofAllowMultiSelect, ofEnableSizing]
+    Left = 452
+    Top = 188
+  end
+end

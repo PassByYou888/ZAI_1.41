@@ -1,0 +1,26 @@
+delphi path
+C:\Temp\Z-AI1.41\Source\;C:\Temp\Z-AI1.41\Source\Bass\;C:\Temp\Z-AI1.41\Source\CrossSocket\;C:\Temp\Z-AI1.41\Source\CrossSocket\Source\;C:\Temp\Z-AI1.41\Source\DIOCP\;C:\Temp\Z-AI1.41\Source\DIOCP\Source\;C:\Temp\Z-AI1.41\Source\FastMM5\;C:\Temp\Z-AI1.41\Source\FMX\;C:\Temp\Z-AI1.41\Source\icsv8\;C:\Temp\Z-AI1.41\Source\icsv8\Source\;C:\Temp\Z-AI1.41\Source\icsv8\Source\Extras\;C:\Temp\Z-AI1.41\Source\icsv9\;C:\Temp\Z-AI1.41\Source\icsv9\Source\;C:\Temp\Z-AI1.41\Source\Indy\;C:\Temp\Z-AI1.41\Source\IntX\;C:\Temp\Z-AI1.41\Source\jemalloc4p\;C:\Temp\Z-AI1.41\Source\Refrence\;C:\Temp\Z-AI1.41\Source\Snappy\;C:\Temp\Z-AI1.41\Source\Synapse\;C:\Temp\Z-AI1.41\Source\Synapse\Source\;C:\Temp\Z-AI1.41\Source\tcmalloc4p\;C:\Temp\Z-AI1.41\Source\VCL\
+
+****************************************************************************
+C:\Temp\Z-AI1.41\Source\
+C:\Temp\Z-AI1.41\Source\Bass\
+C:\Temp\Z-AI1.41\Source\CrossSocket\
+C:\Temp\Z-AI1.41\Source\CrossSocket\Source\
+C:\Temp\Z-AI1.41\Source\DIOCP\
+C:\Temp\Z-AI1.41\Source\DIOCP\Source\
+C:\Temp\Z-AI1.41\Source\FastMM5\
+C:\Temp\Z-AI1.41\Source\FMX\
+C:\Temp\Z-AI1.41\Source\icsv8\
+C:\Temp\Z-AI1.41\Source\icsv8\Source\
+C:\Temp\Z-AI1.41\Source\icsv8\Source\Extras\
+C:\Temp\Z-AI1.41\Source\icsv9\
+C:\Temp\Z-AI1.41\Source\icsv9\Source\
+C:\Temp\Z-AI1.41\Source\Indy\
+C:\Temp\Z-AI1.41\Source\IntX\
+C:\Temp\Z-AI1.41\Source\jemalloc4p\
+C:\Temp\Z-AI1.41\Source\Refrence\
+C:\Temp\Z-AI1.41\Source\Snappy\
+C:\Temp\Z-AI1.41\Source\Synapse\
+C:\Temp\Z-AI1.41\Source\Synapse\Source\
+C:\Temp\Z-AI1.41\Source\tcmalloc4p\
+C:\Temp\Z-AI1.41\Source\VCL\

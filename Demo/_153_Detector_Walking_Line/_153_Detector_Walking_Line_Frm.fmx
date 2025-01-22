@@ -1,0 +1,30 @@
+object _153_Detector_Walking_Line_Form: T_153_Detector_Walking_Line_Form
+  Left = 0
+  Top = 0
+  Caption = #26816#27979#22120#34892#36208#36712#36857'Demo.'
+  ClientHeight = 605
+  ClientWidth = 1071
+  StyleBook = StyleDataModule.GlobalStyleBook
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCloseQuery = FormCloseQuery
+  OnMouseDown = FormMouseDown
+  OnMouseMove = FormMouseMove
+  OnMouseUp = FormMouseUp
+  OnMouseWheel = FormMouseWheel
+  OnPaint = FormPaint
+  DesignerMasterStyle = 0
+  object fpsTimer: TTimer
+    Interval = 15
+    OnTimer = fpsTimerTimer
+    Left = 88
+    Top = 152
+  end
+  object ThreadTimer: TTimer
+    Interval = 1
+    OnTimer = ThreadTimerTimer
+    Left = 88
+    Top = 104
+  end
+end
