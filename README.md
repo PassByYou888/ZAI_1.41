@@ -2,7 +2,8 @@
 Z-AI V1.41 Beta1
 
 # 计算引擎部署说明
-[百度网盘中的依赖库下载](https://pan.baidu.com/s/1UtSHsp2H5Gjz5hag4bhzeg?pwd=8888) 提取码:8888
+[百度网盘中的依赖库下载](https://pan.baidu.com/s/1C1rPukLMIQ0MC4CPs8l0AQ?pwd=8888) 提取码:8888
+
 
 - 先把网盘依赖库拉下来
 - 先将Binary是解压放在Demo/Binary目录中
